@@ -24,6 +24,7 @@ You also can provide data table with pre-defined materials. Recommended structur
 - reference to material asset
 - target (walls, floor, ceiling etc)
 - description (color, style of the material)
+
 }
 
 Currently (October 2026) GPT models are far better in spatial tasks than Claude.
