@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CubeGridToolset",
+	"Description": "Toolset for CubeGrid Mesh Modeling tool",
+	"Category": "Other",
+	"EditorOnly": true,
+	"CreatedBy": "Us",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"NoRedist": true,
+	"EnabledByDefault": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CubeGridToolset",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"TargetAllowList": ["Editor"]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ToolsetRegistry",
+			"Enabled": true
+		},
+		{ "Name": "ModelingToolsEditorMode", "Enabled": true },
+		{ "Name": "MeshModelingToolsetExp", "Enabled": true },
+		{ "Name": "MeshModelingToolset", "Enabled": true },
+		{ "Name": "GeometryProcessing", "Enabled": true },
+		{ "Name": "PythonScriptPlugin", "Enabled": true }
+	]
+}
